@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
 :root {
   --dark-cyan: hsl(158, 36%, 37%);
   --cream: hsl(30, 38%, 92%);
@@ -41,24 +43,26 @@ body {
 }
 .card-desc {
   width: 100%;
-  padding: 35px;
+  padding: 45px 45px 45px 45px;
 }
 
 .card-desc .title {
-  line-height: 1;
+  line-height: 0.8;
   font-weight: 700;
 }
 .preview {
   color: var(--dark-grayish-blue);
   letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  margin-top: 35px;
 }
 
 .description {
   font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 18px;
+  line-height: 14px;
   color: var(--dark-grayish-blue);
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 .btn {
@@ -72,6 +76,7 @@ body {
   cursor: pointer;
   font-size: 16px;
   color: var(--white);
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn span {
