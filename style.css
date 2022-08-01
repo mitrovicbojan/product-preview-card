@@ -109,18 +109,17 @@ body {
     height: auto;
     margin: auto;
     width: auto;
+    margin-top: 0;
   }
   .card-desc {
-    border: 2px solid red;
-    margin: 0 30px 0 30px;
-    padding: 15px;
-    margin-bottom: 50px;
+    width: auto;
+    margin: 0;
+    padding: 0px 45px 45px 25px;
   }
   .image {
+    margin-top: 0px;
   }
   .image img {
-    position: relative;
     max-width: 100%;
-    height: auto;
   }
 }
